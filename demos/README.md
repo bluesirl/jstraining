@@ -12,7 +12,7 @@
   - [React 组件的参数](#react-组件的参数)
   - [React 组件的状态](#react-组件的状态)
   - [React 组件实战](#react-组件实战)
-  - [React 组件的生命周期](#react-组件的声明周期)
+  - [React 组件的生命周期](#react-组件的生命周期)
   - [ReCharts](#recharts)
   - [MobX](#mobx)
   - [Redux](#redux)
@@ -297,14 +297,16 @@ projects.forEach(p => {
 
 ### 操作步骤
 
-（1） 命令行进入`demos/mobx-demo/`目录，执行如下的命令。
+（1）浏览器打开`demos/mobx-demo/browser-demo/index.html`，仔细查看源码
+
+（2） 命令行进入`demos/mobx-demo/`目录，执行如下的命令。
 
 ```bash
 $ npm install
 $ npm start
 ```
 
-（2） 打开浏览器，访问 http://localhost:8080，查看结果，并仔细研究`app/`目录下面的代码。
+（3） 打开浏览器，访问 http://localhost:8080，查看结果，并仔细研究`app/`目录下面的代码。
 
 ### 注意事项
 
@@ -736,7 +738,7 @@ var router = express.Router();
 
 // 新增的代码
 router.use(function(req, res, next) {
-  console.log('Thers is a requesting.');
+  console.log('There is a requesting.');
   next();
 });
 

@@ -129,7 +129,7 @@ Backbone 只有 M 和 V，没有 C。因为，前端 Controller 与后端不同�
       "click #clear-completed": "clearCompleted",
       "click #toggle-all": "toggleAllComplete"
     },
-  }
+  });
 ```
 
 ---
@@ -198,6 +198,18 @@ App.Router = Backbone.Router.extend({
 
 ---
 
+传统的架构
+
+![](./images/architecture-old.png)
+
+单页应用的架构
+
+![](./images/architecture-new.png)
+
+多了一个前端 MVC 层
+
+---
+
 ## Angular
 
 Google 公司推出的 Angular 是最流行的 MVVM 前端框架。
@@ -234,7 +246,7 @@ Google 公司推出的 Angular 是最流行的 MVVM 前端框架。
 
 ## Vue
 
-Vue.js 是现在很热门的一种前端 MVC 框架。
+Vue.js 是现在很热门的一种前端 MVVM 框架。
 
 它的基本思想与 Angular 类似，但是用法更简单，而且引入了响应式编程的概念。
 
